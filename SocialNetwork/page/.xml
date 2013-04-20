@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<campus>
+  <new>
+    <n1>Add New Events</n1>
+  </new>
+  <story>
+    <s1>Add Stories</s1>
+  </story>
+  <events>
+    <e1>Add Events</e1>
+  </events>
+  <photos>
+    <p1>No Photos</p1>
+  </photos>
+  <other>
+    <o1>Other Items</o1>
+  </other>
+</campus>

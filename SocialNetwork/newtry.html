@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<script type="text/javascript">
+var auto_refresh = setInterval(
+function ()
+{
+
+	
+	   $.post("notify/notify_update.php",{ tdy:d } ,function(data) {
+	   $("#load_t").html(data).fadeIn(2000);
+	   $("#load_t").fadeOut(4000);
+    });
+		 //$("#load_t").html(wh);
+    
+},10000); // refresh every 10000 milliseconds
+
+
+function get_time()
+{
+$.post("time_get.php",{  } ,function(d) {
+ $("#load_t").html(d).fadeIn(2000);
+});
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="Click me!" onclick="get_time()" />
+</form>
+<div id="load_t"></div>
+</body>
+</html>

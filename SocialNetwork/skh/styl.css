@@ -1,0 +1,70 @@
+/* CSS Document */
+/* Specify blanket rules for all elements */
+/* Masthead */
+/* Masthead */
+#masthead {
+margin:0 0 10px 0;
+padding:10px;
+border:1px solid #000;
+}
+/* Content */
+#content {
+margin-left:17%;
+margin-right:18%;
+margin-bottom:10px;
+padding:10px;
+border:2px solid #00CC33;
+
+}
+
+#bigp{
+    margin-bottom: 58%;
+    
+    padding-bottom: 10px;
+}
+#thumb{
+    margin-top: 60%;
+}
+.he{
+    color:#00FF33;
+	background-color:#E4E4E4;
+}
+/* Sidebar A */
+#sidebar_a {
+float:left;
+width:15%;
+margin-bottom:10px;
+padding:10px;
+}
+/* Sidebar B */
+#sidebar_b {
+float:right;
+width:15%;
+margin-bottom:10px;
+padding:10px;
+}
+/* Footer */
+body {
+font-size:80%;
+font-family:'Lucida Grande',Verdana,sans-serif;
+margin:10px;
+}
+/* Rules for headings */
+h1 {
+font-size:150%;
+}
+h2 {
+font-size:140%;
+}
+h3 {
+font-size:120%;
+}
+/* Default paragraph styles */
+p {
+font-size:100%;
+line-height:150%;
+}
+
+#X{background-color:#CCCCCC;
+color:#FF0000;
+}

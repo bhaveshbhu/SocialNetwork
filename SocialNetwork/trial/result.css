@@ -1,0 +1,268 @@
+h3{
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+font-size:16px;
+}
+p{
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+font-size:13px;
+}
+body{
+width:100%;
+background-image:url(bg.jpg);
+background-repeat:repeat-x;
+background-attachment:fixed;
+}
+#sugestion a{
+color:red;
+}
+#header{
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:200;
+border:solid 2px;
+border-color:red;
+}
+#greeting{
+position:absolute;
+left:20;
+top:150;
+width:25%;
+height:40;
+border:solid 2px;
+border-color:red;
+-moz-border-radius-topright: 50px;
+
+-webkit-border-top-right-radius: 50px;
+color:red;
+font-family:'Lucida Casual', 'Comic Sans MS';
+text-align:center;
+}
+
+#logo{
+position:absolute;
+left:20;
+top:20;
+width:15%;
+height:120;
+
+-moz-border-radius-topleft: 50px;
+
+-webkit-border-top-left-radius: 50px;
+
+}
+#logo img{
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+-moz-border-radius-topleft: 50px;
+
+-webkit-border-top-left-radius: 50px;
+}
+#headerimage{
+position:absolute;
+left:400;
+top:25;
+width:63%;
+height:130;
+
+}
+#share{
+position:absolute;
+left:40%;
+top:40%;
+width:40%;
+border:solid 2px;
+border-color:red;
+}
+#suggession{
+position:absolute;
+left:30%;
+top:35%%;
+width:40%;
+height:16%;
+border:solid 2px;
+border-color:red;
+}
+.container{
+position:absolute;
+left:30%;
+top:56%;
+width:40%;
+border:solid 8px;
+border-color:white;
+background-color:grey;
+color:white;
+text-align:right;
+font-size:16px;
+text-decoration:bold;
+font-family: 'Brush Script MT',Phyllis,'Lucida Handwriting',cursive;
+-moz-border-radius-topleft: 20px;
+-webkit-border-top-left-radius: 20px;
+-moz-border-radius-topright: 20px;
+
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+
+-webkit-border-bottom-right-radius: 20px;
+}
+.share{
+position:absolute;
+right:0%;
+top:5%;
+text-align:center;
+color:red;
+width:40%%;
+font-size:14px;
+
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+
+
+}
+.request{
+position:absolute;
+right:30%;
+top:15%;
+text-align:center;
+text-color:red;
+width:10%;
+font-size:14px;
+
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+border:solid 2px;
+border-color:red;
+
+
+}
+.status{
+position:absolute;
+left:25%;
+top:15%;
+text-align:center;
+color:red;
+width:40%%;
+font-size:22px;
+-moz-border-radius: 10px;
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+-webkit-border-radius: 10px;
+
+}
+
+#menu ul li{
+	display:inline;
+	
+	padding: 3.5%;
+	
+	}
+	a{
+	color:white;
+	text-decoration:none;
+	font:bold 13px Arial, Helvetica, sans-serif; 
+	}
+	.share a{
+	color:red;
+}
+.request a{
+	color:red;
+}
+	#menu a{
+	color:red;
+	text-decoration:none;
+	font:bold 13px Arial, Helvetica, sans-serif; 
+	}
+	#menu ul{ margin:0px; padding:10px;}
+#menu{
+position:absolute;
+left:400;
+top:155;
+width:63%;
+height:45;
+
+font:bold 13px Arial, Helvetica, sans-serif; 
+text-align:center;
+background:url(menu.jpg);
+background-repeat:x-repeat;
+color:red;
+}
+.magic{
+position:absolute;
+top:190;
+width:40;
+height:8;
+border:solid 2px;
+border-color:red;
+background-color:red;
+display:none;
+
+}
+#sidebar1{
+position:absolute;
+left:60;
+top:240;
+width:18%;
+height:900;
+order:solid 2px;
+order-color:yellow;
+background:grey;
+}
+#sidebar2{
+position:absolute;
+left:1050;
+top:240;
+width:18%;
+height:900;
+order:solid 2px;
+order-color:yellow;
+background:grey;
+}
+.updates{
+position:relative;
+left:0;
+top:40;
+width:100%;
+order:solid 2px;
+order-color:yellow;
+background:white;
+color:red;
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+}
+.updates .division{
+position:relative;
+left:0;
+top:0;
+width:100%;
+height:40px;
+background:blue;
+color:red;
+text-align:center;
+font-family:bold 'Lucida Casual', 'Comic Sans MS';
+}
+
+#footer{
+position:relative;
+left:0px;
+top:0;
+width:90%;
+height:110;
+border-color:white;
+border:8px solid;
+}
+.joint1{
+position:absolute;
+left:35;
+top:200;
+width:22%;
+height:40;
+background:grey;
+font-size:13px;
+text-align:center;
+-moz-border-radius: 50px;
+
+-webkit-border-radius: 50px;
+}

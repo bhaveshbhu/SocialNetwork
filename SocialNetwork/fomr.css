@@ -1,0 +1,33 @@
+				body
+				{
+					background-image: url(images/box2.png);
+					background-repeat:repeat-x,y;
+					margin-top: 0px;
+					margin-left: 0px;
+					margin-right: 0px;
+					border:0px;
+					font-family:century gothic, arial;
+				}
+				input.user
+				{
+					font-family:century gothic;
+					font-size:12px;
+					color:blue;
+					border-color: green;
+					
+				}
+				 input.next
+				{
+					background-color:#33CC33;
+					border-color: black;
+					color: black;
+					font-size:15px;
+					font-weight:bold;
+					height:30px;
+					width:60px;  
+				}
+				div {
+		position: relative;
+		left: -100px;
+		top: -300px;
+					}

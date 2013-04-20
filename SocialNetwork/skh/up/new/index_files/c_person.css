@@ -1,0 +1,231 @@
+/* CSS Document */
+ 
+/* PHOTOS PAGES */
+
+.TagSearch { font-size: 11px; color: #666666; font-family:Arial, Helvetica, sans-serif; }
+
+#TagBox { padding: 10px; border: solid 1px #eee; background: #f5f5f5; }
+#TagBox a { text-decoration: none; }
+
+#favoriteThumbs { width: 530px; margin-left: 135px; margin-right: 105px; }
+
+.PopularPic { padding: 10px; width: 560px; }
+.PopularPic td { vertical-align: top; padding: 10px 10px 20px 10px ; background-image: url(http://l.yimg.com/g/images/dotted.gif); background-repeat: repeat-x; background-position: left bottom; }
+.PopularPic h4 { font-weight: bold; margin-top: 0px; }
+.PopularPic p { font-size: 14px; width: 450px; }
+
+.PhotoStream {margin-top:6px;margin-bottom:15px;}
+
+.PhotosColumn {padding-top:5px}
+
+.SetsColumn, .CollectionsColumn { width: 195px; background-color: #f5f5f5; padding-top:30px;}
+* html .SetsColumn, * html .CollectionsColumn {width: 185px;}
+.SetsColumn .SetSpace { padding-left: 38px; }
+* html .SetsColumn .SetSpace { padding-left: 30px; }
+.SetsColumn .SetSpace h3 {font-size: 15px;}
+.SetsColumn .FriendlyNote {margin: -20px 10px 0;}
+.SetsColumn .Set {text-align:center;width:115px;}
+.SetsColumn .Set h4 {width:auto}
+.SetsColumn .Set .SetCase {text-align:left;margin-left:12px}
+
+.Big5Column {padding-top:1px}
+.Big5Column .Photo {margin-top:0 !important}
+.Big5Column .Desc { width: 500px !important;  }
+
+.Big5Photo {margin-bottom:80px;width: 500px !important;}
+.Big5Photo h4 {width:500px !important}
+
+.LastPhoto {margin-bottom:-40px;}
+
+.Big5NoSets {padding-left:130px}
+
+
+.CollectionsColumn { width: 195px; background-color: #f5f5f5; padding-top:35px}
+.CollectionsColumn .CollSpace { padding-left: 45px; }
+* html .CollectionsColumn .CollSpace {padding-left: 40px;}
+.CollectionsColumn .CollSpace h3 {font-size: 15px;}
+.CollectionsColumn .FriendlyNote {margin: -20px 10px 0;}
+.CollectionsColumn .Coll {text-align:center;width: 100px;}
+.CollectionsColumn .Coll h4 {width: auto;}
+.CollectionsColumn .Coll .CollCase {text-align:left;margin-left:0px}
+
+
+/* TAG PAGES */
+
+#TagCloud { padding: 15px; border: solid 1px #eee; background: #f5f5f5; }
+#TagCloud a { text-decoration: none; }
+
+.AllTagList { margin-left: auto; margin-right: auto; }
+.AllTagList tr {vertical-align: top; }
+th.Lefty { font-size: 11px;padding-left: 60px;}
+.AllTagList td { padding: 5px 15px 5px 5px; font-size: 12px; }
+.AllTagList .Left { padding-left: 60px; font-size: 14px;  }
+.AllTagList .PhotoCount { color: #999999; font-weight: normal; width: 100px; }
+.AllTagList .StartsWith { font-family: Georgia, Times; font-size: 48px; float: left; width: 35px; position: absolute; z-index: 1; }
+.AllTags li { line-height: 22px; }
+
+.UserTagList { padding: 0px; margin-right: 10px; margin-bottom: 5px; text-align: center; float: left; width: 107px; height: 110px; }
+
+/* BATCH OPS */
+
+.Batch { padding: 0px 5px 10px 5px; }
+.BatchList { margin-top: 0px; width: 100%; }
+.BatchList tr { vertical-align: top; }
+.BatchList td { padding-top: 10px; padding-bottom: 40px; border-bottom: solid 3px #e6e6e6; }
+.BatchPic { text-align: center; padding: 20px 30px 10px 30px; }
+.BatchPic img { margin-top: 10px; }
+.BatchForm { width: 100%; }
+.BatchForm td { border: none; padding: 5px; }
+.BatchDesc { font-size: 14px; padding-bottom: 15px; text-align: center; }
+.BatchOpList { width: 50%; border-right: solid 5px #e6e6e6; }
+.BatchOpList p { font: 11px Arial, Helvetica, sans-serif; padding: 0px; margin-right: 10px; margin-bottom: 10px; float: left; text-align: center; width: 75px; height: 90px; }
+.BatchOptions { width: 50%; border-left: solid 5px #e6e6e6;   padding: 20px 10px 20px 20px; font-size: 14px; }
+
+.OneOption { padding: 10px; margin: 10px; border: solid 1px #e6e6e6; }
+.OneOption h4 { margin-top: 0; }
+
+/* View of user photo stream pages, 1 column or two */
+/* Could be consolidated with the DetailView below */
+
+.StreamView { width: 250px; }
+.StreamView h4 { margin-bottom: 0px; margin-top: 0px; font-size: 14px; width: 240px; overflow: hidden; }
+.StreamView .Photo { margin-top: 3px; margin-bottom: 5px; }
+.StreamView .Desc { font-size: 12px; width: 225px; margin-top: 5px; margin-bottom: 0px; }
+.StreamView .Privacy { font-size: 11px; margin-top: 10px; margin-bottom: 2px; width: 240px; color: #999999; }
+.StreamView .Privacy img { border: none; margin-bottom: 3px; vertical-align: middle; }
+.StreamView .Do { font-size: 11px;  margin-top: 0px; margin-bottom: 0px; color: #999999; }
+.StreamView .Activity { font-size: 11px; color: #999999; margin-bottom: 25px; margin-top: 4px;  width: 240px; }
+
+/* for 240px detail list view on a photo, with permissions, comments etc */
+
+.DetailView { width: 240px; margin-bottom: 20px; }
+.DetailView h4 { margin-bottom: 0px; margin-top: 0px; font-size: 14px; width: 240px; }
+.DetailView .Photo { margin-top: 3px; margin-bottom: 5px; padding-top:4px; }
+.DetailView .Desc { font-size: 12px; width: 225px; margin-top: 5px; margin-bottom: 5px; }
+.DetailView .Meta { width: 235px; margin:0 0 6px 0; }
+.DetailView .MetaDetail { margin-top: 5px; }
+.DetailView .Do { font-size: 11px; color: #999999; margin-bottom: 18px; margin-top: 6px; width: 240px; }
+
+/* Recent Activity */
+
+.RecentActivity { width: 640px; margin-top: 10px; margin-bottom: 5px; margin-left: 60px; }
+.RecentActivity tr { vertical-align: top; }
+.RecentActivity td {  }
+.RecentActivity .Object { padding-left: 10px; padding-top: 5px; padding-bottom: 30px; }
+.RecentActivity .Guts { width: 100%; border: none; }
+.Guts h2 { margin-bottom: 0px; padding-top: 5px; font-weight: normal; }
+.Guts .Who { text-align: right; font-size: 11px; padding-right: 5px; vertical-align: middle; }
+
+.NewComments { width: 100%; margin-left: 10px; margin-top: 10px; }
+.NewComments td { vertical-align: top; padding: 3px 3px 6px 3px; margin: 0px; background-image: none; font-size: 12px; }
+/* .NewComments img { margin-right: 10px; } */
+.NewComments .Icon { text-align: right; }
+.NewComments .Icon img { vertical-align: top; border: none; margin-right: 0px; margin-top: 8px; }
+.NewComments .YouSaid { background: #fbfbfb; font-style: italic; color: #888; }
+.NewComments .YouSaidIcon { background: #fbfbfb; font-style: italic; color: #888; text-align: right; }
+.NewComments .YouSaidIcon img { vertical-align: top; border: none; margin-right: 0px; margin-top: 8px; }
+.NewComments small { padding-left: 20px; }
+.HowMany { font: normal 12px Arial, Helvetica, sans-serif; margin-top: 0px; padding-left: 8px; }
+
+table.activity_header {width:100%}
+.activity_filter {text-align:right;font-size:12px;}
+
+/* Upload, describe */
+
+.Describe {}
+.Describe .ThisPhoto { width: 250px; text-align:center; vertical-align:top; padding: 10px 20px 10px 5px; background-image: url(http://l.yimg.com/g/images/dotted.gif); background-repeat: repeat-x; background-position: left top; }
+.Describe .As { vertical-align:top; padding-top: 10px; background-image: url(http://l.yimg.com/g/images/dotted.gif); background-repeat: repeat-x; background-position: left top; }
+
+/* EDIT PHOTO DATES */
+
+h3.Tab { border-bottom: 3px solid #f1f1f1; padding-left: 15px; margin-top: 5px; margin-bottom: 15px; }
+.TabIn { background: #ffffff; padding: 3px 11px 3px 11px; border-left: 1px solid #f1f1f1; border-right: 1px solid #f1f1f1; border-top: 1px solid #f1f1f1; border-bottom: 1px solid #fff; margin-right: 3px; margin-left: 3px; }
+.TabOut { font-size: 13px; color: #333; background: #f1f1f1; padding: 2px 8px 4px 8px; }
+
+.DateCase { padding: 10px; }
+.DateThumb { float: right; width: 150px; height: 150px; text-align: center; }
+#takenDate {  }
+#takenRange {  }
+
+/* Upload Progress */
+
+.ReadThis { font-size: 12px; width: 350px; padding:30px; background-color: #FBFFCC; }
+
+.IgnoreList li { font-size: 14px; }
+
+
+
+/* ############################ */
+/*      Post-Upload             */
+/* ############################ */
+
+
+.uploads_intro {margin-top: -14px;;color: #666;;}
+
+.photos-edit ul, .photos-edit li { margin:0px; padding:0px; position: relative;}
+.photos-edit ul { list-style-type:none; clear:both;margin-bottom:30px;float:left;width:760px;padding:10px 10px}
+* html .photos-edit ul {width: 780px;}
+.photos-edit ul.rows {background-color:#efefef}
+
+.photos-edit div.thumb {position:relative;}
+
+.photos-edit ul.tall div.thumb {min-height:240px;_height:240px}
+
+#photo-items li { float:left; display:block; width:240px; margin-right:20px }
+#photo-items li.col_3 {margin:0}
+#photo-items li div.photo_title {padding:6px 0}
+#photo-items label {font-size:11px;color:#666}
+#photo-items .photo_title input {font-size:14px}
+.photo_description, .photo_tags {padding:6px 0}
+#photo-items li input, #photo-items li textarea {width:240px}
+#photo-items li textarea {height:12em}
+
+
+
+.batch-operations h4 {margin:0 0 .5em 0}
+.batch-operations .tags { float:left; background:#eee; padding:10px; width: 345px;_width: 365px;_height: 95px;}
+.batch-operations #tags { width:280px; }
+    
+.batch-operations .batch-sets { padding:10px; float:left;  background:#eee; margin-left:50px; position:relative;width: 345px;_width: 365px;_height: 95px;}
+.batch-operations .batch-sets select { width:100%; }
+p.create_set_link#create_new_set_text {position:absolute; top:0; _top:1em; right:1em; font-size:11px;}
+.set_meta { width:300px; }
+#create_new_set { height:1px; overflow:hidden; display:none;}
+
+.submit_describe {text-align: center;}
+.submit_describe .Butt {font-size: 18px;}
+
+
+.submit_describe #privacy-controls div {text-align:left;width:200px;background:#efefef;margin:auto;padding:5px;font-size:12px;}
+.submit_describe .note {color:#666}
+
+.privacy-closed#privacy-controls #who-can-see {display:none}
+.privacy-closed#privacy-controls div {display:none}
+.privacy-closed h4 {font-weight:normal;color:#666;font-size:11px;margin-bottom:25px;}
+.privacy-closed#privacy-controls #change {display:block}
+#privacy-controls #change {display:none}
+
+
+
+
+/* ############################ */
+/*            BADGE             */
+/* ############################ */
+
+.BadgeImg { padding-left: 15px; }
+
+.StepBox { margin-top: 0; margin-bottom: 15px; }
+.StepBox td { padding: 5px; }
+.Steps { width: 150px; background: #f5f5f5; border-bottom: 1px solid #eed;}
+.Steps .What { color: #777; }
+.InStep { width: 150px; border-top: 1px solid #eed; border-left: 1px solid #eed; border-right: 1px solid #eed;}
+.InStep .Number { color: #FF0084; }
+.Number { color: #777; font-family: Georgia, Times; font-size: 30px; float: left; margin: -8px 3px 30px 2px;}
+.What { font: normal 11px Arial, Helvetica, sans-serif; }
+.Chose { color: #777; font: normal 11px Arial, Helvetica, sans-serif; font-style: italic; }
+
+.PhotoChoice { margin-left: 20px; width: 500px;	border: none; margin-top: 5px; }
+.PhotoChoice td { background-color: #f3f3f3; }
+
+#preview_box { width: 100%; height: 200px; background: url(http://l.yimg.com/g/images/badge_preview_bg.gif) repeat left top; border: 5px solid #f3f3f3; text-align: center; vertical-align: middle; padding: 30px; }
+.PreviewFour { background: url(http://l.yimg.com/g/images/badge_preview_bg.gif) repeat left top; border: 5px solid #f3f3f3; }

@@ -1,0 +1,22 @@
+.....................1.ISSN 2249-6246(TOP RIGHT CORNER OF HEADER)
+2.break 3rd button..
+3.footer.
+Published & Owned by Dr. R. N. Singh, on behalf of 
+Society for Research of Movement Education,
+Plot no. 6, Swarnkar Bhawan, Shivaji Ward, 
+Gayatri Enclave, Manorama Colony, 
+Sagar – 470002, (M.P.) India.
+Website: www.srome.org, Link: www.srome.org/ijmees
+
+4.add a menus sublink 1.sub details form.
+					2.ijmees membership form
+					
+					srme
+					
+					
+					
+					1.header replace...
+					add reg number with date..
+					2.check all links...offline reg
+					support us--advertisemnt form
+					

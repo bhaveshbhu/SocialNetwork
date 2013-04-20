@@ -1,0 +1,69 @@
+<head>
+<style>
+#opacitybar	{
+	border-bottom:1px solid #ECF1EF;
+	background:#151715;
+        font-color:#000000;
+	padding:10px 20px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:2000;
+	width:100%;
+}
+</style>
+<script src='http://sites.google.com/site/bloggermint/jquery-1.4.2.min.js' type='text/javascript'/>
+<script type='text/javascript'>
+$(document).ready(function() {
+(function() {
+//settings
+var fadeSpeed = 200, fadeTo = 0.5, topDistance = 30;
+var topbarME = function() { $(&#39;#opacitybar&#39;).fadeTo(fadeSpeed,1); }, topbarML = function() { $(&#39;#opacitybar&#39;).fadeTo(fadeSpeed,fadeTo); };
+var inside = false;
+//do
+$(window).scroll(function() {
+position = $(window).scrollTop();
+if(position &gt; topDistance &amp;&amp; !inside) {
+//add events
+topbarML();
+$(&#39;#opacitybar&#39;).bind(&#39;mouseenter&#39;,topbarME);
+$(&#39;#opacitybar&#39;).bind(&#39;mouseleave&#39;,topbarML);
+inside = true;
+}
+else if (position &lt; topDistance){
+topbarME();
+$(&#39;#opacitybar&#39;).unbind(&#39;mouseenter&#39;,topbarME);
+$(&#39;#opacitybar&#39;).unbind(&#39;mouseleave&#39;,topbarML);
+inside = false;
+}
+});
+})();
+});
+</script>
+</head>
+<body>
+<div id='opacitybar'>
+	<a href='#'>My Projects</a> |
+	<a href='#'>Freebies</a> |
+	<a href='#'>Tutorials</a> |
+</div>
+<div id=’header-wrapper’>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>
+fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>fgyggjjhgjhgh<br>
+</div>
+</body>

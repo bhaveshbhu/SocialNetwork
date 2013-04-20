@@ -1,0 +1,53 @@
+
+            body
+            {   background-image: url(images/line.png);
+                background-repeat:repeat-x;
+             
+                margin-top: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                border:0px;
+                font-family:century gothic, arial;
+            }
+            input.button
+            {
+                background-color:black;
+                color:white;
+                font-size:12px;
+                font-weight:bold;
+                height:25px;
+                width:60px;
+                
+            }
+             input.signup
+            {
+                background-color:blue;
+                color:white;
+                font-size:15px;
+                font-weight:bold;
+                height:30px;
+                width:120px;  
+            }
+            input.user
+            {
+                font-family:century gothic;
+                font-size:12px;
+                color:blue;
+                border-color: black;
+                
+            }
+            table
+            {
+                width: 100%;
+                border:0px;
+            }
+            td.otherSites
+            {
+                background-image: url(images/box.png);
+                background-repeat: no-repeat;
+            }
+  p.one {
+width:200px; height:100px;
+padding:5px; margin:10px;
+border-style:solid; border-color:#000000; border-width:2px;}
+ 
